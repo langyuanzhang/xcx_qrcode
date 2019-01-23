@@ -3,13 +3,13 @@ TP5生成小程序二维码
 
 小程序wxml
 
-```
+```html
 <image src='{{toimg}}' class="erweima {{showewm?'':'hidden'}}" bindtap='clerkJurisdiction1' data-of='{{off}}'></image>
 ```
 
 小程序js
 
-```
+```js
   //二维码
   clerkJurisdiction1: function (e) {
     var that = this;
@@ -44,7 +44,7 @@ TP5生成小程序二维码
 
 后台控制器php代码
 
-```
+```php
     /*********************zly */
     /*
     2017年9月29日15:30:38
